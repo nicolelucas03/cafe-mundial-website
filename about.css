@@ -1,0 +1,266 @@
+/* FOR ALL PAGES*/
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333;
+    background-color: #fffaf4;
+    line-height: 1.6;
+  }
+  
+  p{ 
+    margin: 50px;
+  }
+  
+  .header {
+    background-color: #772d2b;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    font-family: 'Solitreo';
+    font-size: 1.3rem;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  
+  .header p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.3rem;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+
+  .content #cover-img{ 
+    width: 100%; 
+    height: 700px;
+  }
+ 
+  
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3141;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0 20px;
+  }
+
+  #navbar .logo-container {
+    display: flex;
+    align-items: center; 
+  }
+
+  #navbar .company-logo {
+    width: 54px; 
+    height: auto; 
+    margin-right: 10px;
+  }
+
+  #navbar .company-name {
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Protest Riot';
+    font-size: 32px;
+  }
+
+  .nav-links {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .nav-links a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+
+  .nav-links a:hover {
+    background-color: #734141;
+    color: #ffffff;
+  }
+
+  .nav-links a.active {
+    background-color: #772d2b;
+    color: white;
+  }
+
+  .company-link {
+    text-decoration: none; 
+    color: inherit; 
+  }
+
+  
+  .content {
+    padding: 0px; 
+    font-family: 'Roboto', sans-serif;
+    color: #4b124a;
+    line-height: 1.6;
+  }
+  
+  
+  /*FOOTER FOR ALL PAGES */
+  .footer {
+    background-color: #1e3141;
+    color: white;
+    padding: 20px 30px;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+
+  #footer-contact {
+    max-width: 50%;
+  }
+
+  #footer-socials {
+    text-align: right;
+  }
+
+  #footer-socials p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .footer #company-name {
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Protest Riot';font-size: 25px;
+  }
+
+  .social-icon {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+    color: white;
+  }
+
+  .social-icon i {
+    font-size: 3rem;
+    transition: transform 0.3s ease;
+  }
+
+  .social-icon:hover i {
+    transform: scale(1.1);
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 0; 
+    padding: 0; 
+  }
+  
+  .grid-item {
+    padding: 0; 
+    font-size: 30px;
+    text-align: left;
+  }
+  
+  .grid-item h3, 
+  .grid-item p {
+    margin: 15px 40px; 
+    padding: 10px 0; 
+    line-height: 2.2;
+  }
+  
+  .grid-item img {
+    display: block; 
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+
+
+  .history{
+    background-color: #f3ecca;
+    padding: 40px;
+  }
+
+  .history p{ 
+    line-height: 2.2;
+  }
+
+  .text-container {
+    margin: 0px 300px;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    color: #772d2b;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+
+  @media (max-width: 768px) {
+      .about .row, .history .row {
+          flex-direction: column;
+          text-align: center;
+      }
+
+      .content-block, .text-container {
+          max-width: 100%;
+      }
+  }
+
+/*OUR TEAMS SECTION*/
+
+  .team {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .team h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    margin-bottom: 80px;
+  }
+
+  .team-member {
+    background-color: #f3ecca;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .team-member h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #1e3141;
+  }
+
+  .team-member p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 2.2;
+  }
