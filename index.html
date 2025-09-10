@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Protest Riot' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Solitreo' rel='stylesheet'>
+
+    <title>The World's Cafe</title>
+</head>
+
+<body>
+    <!--**HEADER AND NAV FOR ALL PAGES-->
+    <header class="header">
+        <h1>para y por el pueblo</h1>
+    </header>
+
+    <nav id="navbar">
+      
+      <div class="logo-container">
+          <img src="cafe_mundial_logo.jpg" alt="Company Logo" class="company-logo">
+          <a href="index.html" class="company-link">
+            <span class="company-name">The World's Cafe</span>
+          </a>
+          
+      </div>
+      <div class="nav-links">
+          <a class="active" href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="news.html">News</a>
+      </div>
+    </nav>
+  
+  
+
+
+      <section>
+          <!--Image and text inside image-->
+          <div class = "container"> 
+            <img src="https://images.ctfassets.net/1aemqu6a6t65/4YZoBrilNQKzLMoxeG4NME/d71800e9020e638f7a4ae35f38fb0fd2/little-guyana-richmond-hill-queens-nyc-molly-flores-9v4a8365" id ="cover-img" alt="cover-photo" style="width:100%"; height="700px;">
+            <div class="top-left">Together, we can fight hunger.</div>
+            <div class="top-left-next">Join us in creating a brighter future for our community.</div>
+          </div>
+      </section> 
+         
+
+   
+
+        <section class="intro">
+          <div class="intro-content">
+            <h2>What We Do</h2>
+              <div class="row">
+                <div class = "quote"> 
+                  <p><i class="bi bi-quote" style="color: #92241f; font-size: 2rem;"></i>
+                    I don’t know what your destiny will be, but one thing I do know: the only ones among you who will be really happy are those who have sought and found how to serve. True happiness comes from the joy of deeds well done, the zest of creating things new. The purpose of human life is to serve, and to show compassion and the will to help others.</p>  
+                  <div class ="quote-author"><p>-Albert Schweitzer</p></div>
+                </div>
+
+                <br></br>
+                <div class="what-we-do">
+                  <p>
+                    Every week, we serve hot meals and beverages while distributing essential items like non-perishables, warm clothing, and other supplies. Together, with our volunteers, local businesses, and supporters, we create a safe, welcoming space where everyone can feel valued.  
+                  </p>
+                  <p>
+                    In addition to meeting immediate needs, we strive to foster meaningful connections within the community. Through our outreach programs, we offer resources for housing assistance, job placement, and mental health support, empowering individuals to overcome challenges and build a brighter future.  
+                  </p>
+                  <p>
+                    We also host seasonal drives and special events, such as holiday dinners, back-to-school supply giveaways, and wellness workshops, ensuring our impact extends beyond daily essentials. Every effort is guided by our belief in dignity, respect, and compassion for all.
+                  </p>      
+                </div> 
+
+              </div> 
+            </div>
+          </section>
+  
+          <section id="programs" class="programs">
+            <h2>How To Get Involved</h2>
+            <div class="program-cards">
+                <div class="card">
+                    <h3>Donate</h3>
+                    <p>Help us feed our community by contributing non-perishable items or freshly prepared meals! Whether you're an individual, family, or business, your donation makes a difference.</p>
+                    <p><button class="cta-btn" onclick="openModal('donateModal')">Learn More</button></p>
+                </div>
+                <div class="card">
+                    <h3>Funds</h3>
+                    <p>Every dollar you contribute goes directly toward fighting hunger in our community. With your generosity, we can purchase essential food items, cover operational costs, and expand our reach to serve more families in need.</p>
+                    <p><button class="cta-btn" onclick="openModal('fundsModal')">Learn More</button></p>
+                </div>
+                <div class="card">
+                    <h3>Volunteer</h3>
+                    <p>Volunteering with our food drive is a rewarding way to give back and directly impact the lives of those in need. Whether you have a few hours or want to commit regularly, we have opportunities for everyone!</p>
+                    <p><button class="cta-btn" onclick="openModal('volunteerModal')">Learn More</button></p>
+                </div>
+            </div>
+        
+            
+            <div id="donateModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal('donateModal')">&times;</span>
+                    <h3>Donate</h3>
+                    <p>
+                      Donations are greatly appreciated in any amount from individuals who want to support our mission. Every contribution makes a difference! You can Venmo us at @elcafemundialnyc.
+                    </p>
+                    <p>
+                      If you run a local business and have leftover food at the end of the day, consider donating it to us. Your surplus can help us feed those in need and reduce food waste.
+                    </p>
+                    <p> 
+                      For partnerships or inquiries, reach out to us via email or send us a direct message on Instagram. Together, we can make a meaningful impact in our community.
+                    </p>
+                </div>
+            </div>
+        
+            <div id="fundsModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal('fundsModal')">&times;</span>
+                    <h3>Funds</h3>
+                  
+
+                    <p>
+                      Your generous contributions allow us to directly support those in need by purchasing essential items, especially during the colder months.
+                    </p>
+                    <p>Funds are used to buy:
+                      <br></br><ul>
+                        <li>
+                          Fresh food to distribute to individuals and families experiencing food insecurity.
+                        </li>
+                        <li>
+                          Non-perishable goods to ensure no one goes hungry.
+                        </li>
+                        <li>
+                          Winter essentials such as blankets, jackets, gloves, and other cold-weather gear to provide warmth and comfort.
+                        </li>
+                      </ul>
+                     <p>Every dollar helps us make a difference in our community, ensuring that everyone has access to basic necessities and support during challenging times. Venmo us @elcafemundial. Thank you for helping us bring hope and care to those who need it most.</p>
+
+                    
+                </div>
+            </div>
+        
+            <div id="volunteerModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal('volunteerModal')">&times;</span>
+                    <h3>Volunteer</h3>
+                    <p>DM us on Instagram @elcafemundial to help us distribute food every Tuesday from 6:30AM-8:30AM at 69th St & Roosevelt Ave. The more hands, the better!</p>
+                </div>
+            </div>
+            <script>
+              function openModal(modalId) {
+                  document.getElementById(modalId).style.display = "block";
+              }
+          
+              function closeModal(modalId) {
+                  document.getElementById(modalId).style.display = "none";
+              }
+          
+              window.onclick = function(event) {
+                  if (event.target.classList.contains("modal")) {
+                      event.target.style.display = "none";
+                  }
+              }
+          </script>
+    
+        </section> 
+        <br></br>
+      
+   
+
+
+
+  <!-- **FOOTER FOR ALL PAGES -->
+  <footer class="footer">
+    <div class="footer-content">
+        <div id="footer-contact">
+            <p id="company-name">The World's Cafe</p>
+            <p><strong>Address:</strong> 69th St & Roosevelt Ave.</p>
+            <p><strong>Email:</strong> theworldscafe@gmail.com</p>
+        </div>
+    
+        <div id="footer-socials">
+            <p>Follow Us</p>
+            <a href="https://instagram.com/elcafemundialnyc" target="_blank" class="social-icon">
+              <i class="fab fa-instagram fa-3x"></i> 
+          </a>
+          <a href="https://facebook.com/theworldscafe" target="_blank" class="social-icon">
+              <i class="fab fa-facebook fa-3x"></i> 
+          </a>
+          <a href="https://twitter.com/theworldscafe" target="_blank" class="social-icon">
+              <i class="fab fa-twitter fa-3x"></i> 
+          </a> 
+        </div>
+    </div>
+  </footer>
+
+
+
+</body>
+</html>
