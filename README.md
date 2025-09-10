@@ -24,3 +24,7 @@ The Cafe Mundial Website is a digital platform built for a newly formed mutual a
 * **Multilingual Support**: Add Spanish and Mandarin versions of the site to reflect the diversity of the Queens community
 
 ### Screenshots :camera:
+
+### Live Site 
+You can view the deployed website here: 
+[Cafe Mundial Website on GitHub Pages] (https://wustl-cse204a-fl2024-2.github.io/final-project-nicoleclucas/)
