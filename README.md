@@ -7,7 +7,7 @@
 ### Overview
 The Cafe Mundial Website is a digital platform built for a newly formed mutual aid organization based in Queens, NYC. The goal of the site is to provide community members with easy access to essential resources, up-to-date information, and upcoming events. The site was designed with accessibility and community engagement in mind, aiming to support local efforts in organizing, sharing resources, and fundraising.
 
-### Tech Stack
+### Tech Stack :desktop_computer:
 - **HTML5**- for overall structure and semantic layout
 * **CSS3**- for styling and responsive design
 * **JavaScript**- for interactive components and dynamic content
