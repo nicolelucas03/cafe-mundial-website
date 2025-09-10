@@ -13,14 +13,14 @@ The Cafe Mundial Website is a digital platform built for a newly formed mutual a
 * **JavaScript**- for interactive components and dynamic content
 * **API Integration**- for fetching real-time news related to mutual aid in NYC
 
-### Features 
+### Features :pushpin:
 - **Homepage** with mission statement and contact information
 * **About Us** with information about the organization's founding members, mission, and vision
 * **News** that pulls live data using an API to show local news relevant to mutual aid efforts in NYC
 
-### Future Improvements
+### Future Improvements :hammer:
 - **Social Media Integration**: Add Facebook and Twitter links once official accounts are created
 * **Donation Functionality**: Incorporate Venmo API or Stripe for secure, real-time donations
 * **Multilingual Support**: Add Spanish and Mandarin versions of the site to reflect the diversity of the Queens community
 
-### Screenshots
+### Screenshots :camera:
