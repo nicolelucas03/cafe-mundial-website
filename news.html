@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="news.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Protest Riot' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Solitreo' rel='stylesheet'>
+
+    <title>The World's Cafe</title>
+</head>
+
+    <!--**HEADER AND NAV FOR ALL PAGES-->
+    <header class="header">
+        <h1>para y por el pueblo</h1>
+    </header>
+
+    <nav id="navbar">
+      
+        <div class="logo-container">
+            <img src="cafe_mundial_logo.jpg" alt="Company Logo" class="company-logo">
+            <a href="index.html" class="company-link">
+                <span class="company-name">The World's Cafe</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a class="active" href="news.html">News</a>
+        </div>
+      </nav>
+
+<body>
+    <section id="news">
+        <h2>Related News</h2>
+        <div id="news-container">
+            
+        </div>
+    </section>
+
+    <script> 
+
+    async function fetchFoodShortageNews() {
+        const apiKey = "pub_585959dbd7ebe61939fe98f7c6d61fb80408c";
+        const query = encodeURIComponent("food shortage OR social justice OR volunteering OR food drive AND NYC");
+        const endpoint = `https://newsdata.io/api/1/news?apikey=${apiKey}&q=${query}&language=en`;
+
+            try {
+                const response = await fetch(endpoint);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                displayNews(data.results);
+            } catch (error) {
+                console.error("Error fetching news:", error);
+            }
+        }
+
+       
+        function displayNews(articles) {
+            const newsContainer = document.getElementById("news-container");
+            newsContainer.innerHTML = ""; 
+
+            articles.forEach(article => {
+                const newsItem = document.createElement("div");
+                newsItem.classList.add("news-item");
+
+                const description = article.description || "No description available.";
+                const truncatedDescription = description.length > 120 
+                    ? description.slice(0, 120) + "..." 
+                    : description;
+
+                newsItem.innerHTML = `
+                    <h4>${article.title}</h4>
+                    <p class="description">${truncatedDescription}</p>
+                    <a href="${article.link}" target="_blank" class="read-more">Read More</a>
+                `;
+
+                newsContainer.appendChild(newsItem);
+            });
+        }
+        
+        document.addEventListener("DOMContentLoaded", fetchFoodShortageNews);
+    </script>
+
+    <!-- **FOOTER FOR ALL PAGES -->
+  <footer class="footer">
+    <div class="footer-content">
+        <div id="footer-contact">
+            <p id="company-name">The World's Cafe</p>
+            <p><strong>Address:</strong> 69th St & Roosevelt Ave.</p>
+            <p><strong>Email:</strong> theworldscafe@gmail.com</p>
+        </div>
+    
+        <div id="footer-socials">
+            <p>Follow Us</p>
+            <a href="https://instagram.com/elcafemundialnyc" target="_blank" class="social-icon">
+              <i class="fab fa-instagram fa-3x"></i> 
+          </a>
+          <a href="https://facebook.com/theworldscafe" target="_blank" class="social-icon">
+              <i class="fab fa-facebook fa-3x"></i> 
+          </a>
+          <a href="https://twitter.com/theworldscafe" target="_blank" class="social-icon">
+              <i class="fab fa-twitter fa-3x"></i> 
+          </a> 
+        </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
