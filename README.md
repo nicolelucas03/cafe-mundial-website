@@ -24,7 +24,7 @@ The Cafe Mundial Website is a digital platform built for a newly formed mutual a
 * **Multilingual Support**: Add Spanish and Mandarin versions of the site to reflect the diversity of the Queens community
 
 ### Screenshots :camera:
-![image](<img width="3805" height="1742" alt="image" src="https://github.com/user-attachments/assets/44d65cc9-caa5-4a28-9a6d-d44a4ab4a23e" />)
+![screenshot](cafe_mundial_screenshot.png)
 
 ### Live Demo :rocket:
 You can view the deployed website here: 
