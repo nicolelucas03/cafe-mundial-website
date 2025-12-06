@@ -15,17 +15,17 @@ The Cafe Mundial Website is a digital platform built for a newly formed mutual a
     </a>
 - ![Static Badge](https://img.shields.io/badge/API%20Integration-%20purple?style=for-the-badge&logo=fastapi&logoColor=white)
 
-## Features :pushpin:
+## Features 
 - **Homepage** with mission statement and contact information
-* **About Us** with information about the organization's founding members, mission, and vision
-* **News** that pulls live data using an API to show local news relevant to mutual aid efforts in NYC
+- **About Us** with information about the organization's founding members, mission, and vision
+- **News** that pulls live data using an API to show local news relevant to mutual aid efforts in NYC
 
-## Future Improvements :hammer:
+## Future Improvements 
 - **Social Media Integration**: Add Facebook and Twitter links once official accounts are created
-* **Donation Functionality**: Incorporate Venmo API or Stripe for secure, real-time donations
-* **Multilingual Support**: Add Spanish and Mandarin versions of the site to reflect the diversity of the Queens community
+- **Donation Functionality**: Incorporate Venmo API or Stripe for secure, real-time donations
+- **Multilingual Support**: Add Spanish and Mandarin versions of the site to reflect the diversity of the Queens community
 
-## Screenshots :camera:
+## Screenshots
 ![screenshot](cafe_mundial_screenshot.png)
 
 ## Live Demo :rocket:
