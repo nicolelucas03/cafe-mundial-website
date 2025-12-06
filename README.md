@@ -35,5 +35,5 @@ This site was built using [Cafe Mundial Website on GitHub Pages](https://nicolel
 ## Contact 
 
 Nicole Lucas - nicoleclucas003@gmail.com
-Project Link: [https://github.com/nicolelucas03/cafe-mundial-website](https://github.com/your_username/repo_name](https://github.com/nicolelucas03/cafe-mundial-website)
 
+Project Link: [https://github.com/nicolelucas03/cafe-mundial-website](https://github.com/nicolelucas03/cafe-mundial-website)
