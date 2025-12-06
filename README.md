@@ -4,13 +4,19 @@
 
 **Email**: nicoleclucas003@gmail.com
 
-### Overview
+### About the Project
 The Cafe Mundial Website is a digital platform built for a newly formed mutual aid organization based in Queens, NYC. The goal of the site is to provide community members with easy access to essential resources, up-to-date information, and upcoming events. The site was designed with accessibility and community engagement in mind, aiming to support local efforts in organizing, sharing resources, and fundraising.
 
-### Tech Stack :desktop_computer:
-- **HTML5**- for overall structure and semantic layout
-* **CSS3**- for styling and responsive design
-* **JavaScript**- for interactive components and dynamic content
+### Tech Stack
+- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+    <img src="https://img.shields.io/badge/HTML%20-orange?style=for-the-badge&logo=html5&logoColor=white"    alt="https://developer.mozilla.org/en-US/docs/Web/HTML"/> 
+    </a>        
+- <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+    <img src="https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css&logoColor=white"    alt="https://developer.mozilla.org/en-US/docs/Web/CSS"/>
+    </a>        
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white"    alt="https://developer.mozilla.org/en-US/docs/Web/JavaScript"/>
+    </a>
 * **API Integration**- for fetching real-time news related to mutual aid in NYC
 
 ### Features :pushpin:
