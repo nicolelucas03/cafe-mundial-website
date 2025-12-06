@@ -28,7 +28,7 @@ The Cafe Mundial Website is a digital platform built for a newly formed mutual a
 ## Screenshots
 ![screenshot](cafe_mundial_screenshot.png)
 
-## Live Demo :rocket:
+## Live Demo
 You can view the deployed website here: 
 This site was built using [Cafe Mundial Website on GitHub Pages](https://nicolelucas03.github.io/cafe-mundial-website/)
 
