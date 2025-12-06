@@ -17,7 +17,7 @@ The Cafe Mundial Website is a digital platform built for a newly formed mutual a
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
     <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white"    alt="https://developer.mozilla.org/en-US/docs/Web/JavaScript"/>
     </a>
-* **API Integration**- for fetching real-time news related to mutual aid in NYC
+- ![Static Badge](https://img.shields.io/badge/API%20Integration-%20purple?style=for-the-badge&logo=fastapi&logoColor=white)
 
 ### Features :pushpin:
 - **Homepage** with mission statement and contact information
